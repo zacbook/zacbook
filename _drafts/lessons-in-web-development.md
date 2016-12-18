@@ -29,7 +29,7 @@ to your `head`. Along the same lines, even though [it's probably not required](h
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 in there as well, close to the top.
-- You can put your CSS files anywhere, `/css/main.css` seems pretty popular.
+- Although you can put your CSS and JavaScript files anywhere, `/css/` and `/js/` seem pretty popular. One can also separate out project-specific versus general-purpose code, as detailed on [this StackOverflow post](http://stackoverflow.com/questions/24199004/best-practice-to-organize-javascript-library-css-folder-structure).
 - While probably best handled via CSS, one should appropriately [set the viewport](http://www.w3schools.com/css/css_rwd_viewport.asp) to be friendly to mobile browsers. It's as easy as adding
 
 ``` html
