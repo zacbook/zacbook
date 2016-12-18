@@ -1,36 +1,16 @@
 <!doctype html>
-<html lang="en">
-{% include head.html %}
-<body>
-<div id="navigation">
- 
-<h2>The Main navigation</h2>
-<ul>
-	<li><a href="cssTutorialPage1.htm">Page One</a></li>
- 	<li><a href="cssTutorialPage2.htm">Page Two</a></li>
-</ul>
-<ul>
-	<li><a href="cssTutorialPage1.htm">Page One</a></li>
- 	<li><a href="cssTutorialPage2.htm">Page Two</a></li>
-</ul>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-</div>
- 
- 
-<div id="centerDoc">
- 
-<h1>The Main Heading</h1>
- 
-<p>Go to the Web Designers Killer Handbook home page and grab the
-   practice HTML page that we will used as the starting template for this
-   tutorial. You can find it under the heading: 'To create the practice HTML
-   page do the following:'.</p>
-   
-<p>$f(x) = x^2, x \in \ereals$</p>
- 
-<h2>This should be different</h2>
+  {% include head.html %}
 
-<p>Follow the instructions there and create your basic HTML page
-   ... and do it now!</p></div>
-</body>
+  <body>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+  </body>
+
 </html>
