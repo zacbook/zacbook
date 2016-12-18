@@ -3,7 +3,7 @@ layout: post
 title: "Web Development Tips and Notes"
 date: 2016-12-18T00:33:10-08:00
 categories: Development
-tags: html, css, jekyll, liquid, octopress
+tags: html, css, jekyll, liquid, octopress, mathjax
 excerpt:
 ---
 
@@ -37,4 +37,5 @@ in there as well, close to the top.
 ```
 to your `head`. Here's some [further elaboration](https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972).
 - Even though I've known about [Liquid](https://shopify.github.io/liquid/) for several years. I didn't realize it was developed at [Shopfiy](https://www.shopify.com). Props to them!
+- You can [configure MathJax to only process part of the page](https://github.com/mathjax/MathJax/issues/1218), see [this code snippet](http://jsfiddle.net/artur99/1erzqsy6/1/) for an example.
 

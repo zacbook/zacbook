@@ -16,8 +16,8 @@ I stole ideas and code from various places:
 
 And I use great free and open source resources:
 - [Font Awesome](http://www.fontawesome.io), for various vector icons and graphics
-- [Octopress](https://github.com/octopress/octopress), for deploying to [GitHub Pages](https://pages.github.com)
-- [MathJax](https://www.mathjax.org), for beautifully rendered math
+- [Octopress](https://github.com/octopress/octopress), for managing [Jekyll](https://jekyllrb.com) and deploying to [GitHub Pages](https://pages.github.com)
+- [MathJax](https://www.mathjax.org), for beautifully rendered mathematics
 
 
 
