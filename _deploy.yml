@@ -1,5 +1,5 @@
 # Octopress deploy setup
 method: git
 site_dir: _site
-git_url: git@github-zacbook:zacbook/zacbook.github.io.git#
+git_url: git@github-zacbook:zacbook/zacbook.github.io.git
 git_branch: master
