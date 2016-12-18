@@ -4,12 +4,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <title>{{ page.title | default: site.title | escape }}</title>
+  
+  <!-- Metadata -->
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="author" content="{{ page.author | default: site.author | strip_html | normalize_whitepsace | truncate: 160 | escape }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}" type="text/css">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}" type="text/css">
+  
+  <!--- MathJax Configuration -->
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,http://drz.ac/javascripts/MathJaxLocal.js">
+  </script>
+  
+  <!-- Icons: To Do -->
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
