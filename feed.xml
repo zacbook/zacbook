@@ -4,10 +4,10 @@
     <title>ZacBook.net</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://zacbook.net/</link>
-    <atom:link href="http://zacbook.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Dec 2016 23:31:13 -0800</pubDate>
-    <lastBuildDate>Thu, 08 Dec 2016 23:31:13 -0800</lastBuildDate>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 18 Dec 2016 01:29:57 -0800</pubDate>
+    <lastBuildDate>Sun, 18 Dec 2016 01:29:57 -0800</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -28,13 +28,13 @@
 
 </description>
         <pubDate>Thu, 15 Sep 2016 02:02:43 -0700</pubDate>
-        <link>http://zacbook.net/jekyll/update/2016/09/15/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://zacbook.net/jekyll/update/2016/09/15/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update%20test/2016/09/15/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update%20test/2016/09/15/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
         
-        <category>update</category>
+        <category>update test</category>
         
       </item>
     
