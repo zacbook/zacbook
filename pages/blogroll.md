@@ -15,6 +15,7 @@ Just a list of interesting or useful blogs and websites. You'll find things abou
 
 - [Brian Buccola](http://brianbuccola.com), and his post on [LaTeX math in Octopress](http://brianbuccola.com/latex-math-in-octopress/)
 - [Hilton Lipschitz](http://hiltmon.com)
+- [Farzad Fereidouni](http://www.spechron.com)
 
 ## Generally more technical
 
