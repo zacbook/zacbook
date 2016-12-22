@@ -13,6 +13,7 @@ I stole ideas and code from various places:
 - Renyuan's [Leonids Jekyll Theme](https://renyuanz.github.io/leonids/)
 - The [HTML5 Boilerplate Project](http://www.html5boilerplate.com)
 - The [Minima Jekyll Theme](https://github.com/jekyll/minima)
+- The [Jekyll-clean Theme](https://github.com/scotte/jekyll-clean)
 
 And I use great free and open source resources:
 - [Font Awesome](http://www.fontawesome.io), for various vector icons and graphics

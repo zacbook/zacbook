@@ -11,7 +11,7 @@ In an attempt to learn more about HTML, CSS, and using Jekyll, I started creatin
 
 Along the way—usually after some Googling—I learned a few things. In no particular order, here are some of them that may be useful for others (or myself) in the future:
 
-- In Jekyll (v. 3.3.1), posts by default do not receive a `post.title` YAML / Liquid variable. However, if one creates a posts `collection` in their `_config.yml`, then `post.title` will be set to the filename of the post (without the extension). 
+- In Jekyll (v. 3.3.1), posts by default do not receive a `post.title` YAML / Liquid variable. However, if one creates a posts `collection` in their `_config.yml`, then `post.title` will be set to the filename of the post (without the extension). This is important if one relies on `post.title` being empty before falling back to the default `site.title`. 
 
 - Search engines typically truncate the `name="description"` HTML metadata at [160 characters](https://moz.com/learn/seo/meta-description). This is why many Jekyll templates employ the `truncate: 160` Liquid filter.
 
