@@ -6,5 +6,5 @@ categories:
 tags:
 excerpt:
 
-external-url: {{ url }}
+link: {{ url }}
 ---

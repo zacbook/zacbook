@@ -49,3 +49,11 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.nav {
+    font-size: 1.3em;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+}
