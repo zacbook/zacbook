@@ -82,19 +82,16 @@ draft_template: draft
 
 ## Dev notes
 # - Update extra components such as font-awesome, bootstrap, and jquery
-# - Revisit mathjax config and pandoc processing
-# - Compress About and Colophon into a single about page for simplicity?
-# - Work on archive display, steal from leonids
+# - Revisit mathjax config and pandoc processing, seems that $$ gets turned into mathml tags. Check drz.ac blog posts.
 # - Decide if the /pages/ directory is a good idea versus manual placement?
-# - 404 page
 # - Search box
-# - cute social button links from leonids
 #   Can generalize to allow page / post authors with
 #   {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
 
-# CSS Issues
+## CSS Issues
 # - CSS on archive page (from leonids) or use template from jekyll-clean
 # - CSS on share boxes at the end of posts (from leonids)
 # - CSS style on feature images (from leonids)
 # - CSS on the contact page (link shown in small view when social icons not shown in nav bar)
+# - On mobile: perhaps a better way to display social button links
 
