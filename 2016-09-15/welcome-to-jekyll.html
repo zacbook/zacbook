@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
-
-  <head>
+<head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +10,11 @@
   <!-- Metadata -->
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
   <meta name="author" content="Me">
-  <link rel="canonical" href="http://zacbook.net/2016-09-15/welcome-to-jekyll">
+  <link rel="canonical" href="http://localhost:4000/2016-09-15/welcome-to-jekyll">
   <link rel="alternate" type="application/rss+xml" title="ZacBook.net" href="/feed.xml">
 
   <!-- CSS & JS -->
-  <!-- TODO: Ensure you have the latest font-awesome, bootstrap, and jquery -->
+  <!-- TODO: Ensure you have the latest font-awesome, bootstrap, jekyll-syntax, and jquery -->
   <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link rel="stylesheet" href="/css/bootstrap.min.css"  type="text/css">
@@ -31,135 +30,166 @@
   <!-- Icons: To Do -->
 
   <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
-  
-
-
-  
 </head>
-
   <body>
-  
-    <header class="site-header" role="banner">
+  <header class="site-header" role="banner">
 
 <div class="container-fluid">
-    <div class="row-fluid">
-        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">ZacBook.net</a>
-            </div>
+  <div class="row-fluid">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/">ZacBook.net</a>
+      </div>
+      <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav visible-sm-block visible-md-block visible-lg-block">
+    <script type="text/javascript">
+  // based on http://stackoverflow.com/a/10300743/280842
+  function gen_mail_to_link(hs, subject) {
+    var lhs,rhs;
+    var p = hs.split('@');
+    lhs = p[0];
+    rhs = p[1];
+    document.write("<a class=\"social-link-item\" target=\"_blank\" href=\"mailto");
+    document.write(":" + lhs + "@");
+    document.write(rhs + "?subject=" + subject + "\"><i class=\"fa fa-fw fa-envelope\"></i><\/a>");
+  }
+</script>
+    <li><script>gen_mail_to_link('zac@zacbook.net', 'Hello from website');</script></li>
+    <li><a href="http://twitter.com/zacbook" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+    
+    
+    
+    
+    
+    
+    
+    <li><a href="http://github.com/zacbook" class="social-link-item" target="_blank"><i class="fa fa-fw fa-github"></i></a></li>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-            <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  </ul>
   <ul class="nav navbar-nav">
-      <li class="active"><a href="/">Home</a></li>
-      <li class="active visible-xs-block"><a href="/links.html">Links</a></li>
-      <li class="active"><a href="/archive">Archive</a></li>
-      <li class="active"><a href="/about">About</a></li>
-      <li class="active"><a href="/feed.xml">RSS</a></li>
-      
-        <li class="active"><a href="https://github.com/">Github</a></li>
-      
+    <li><a href="/">Home</a></li>
+    <li class="visible-xs-block"><a href="/links">Links</a></li>
+    <li><a href="/archive">Archive</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/feed.xml">RSS</a></li>
+    <li class="visible-xs-block"><a href="/contact">Contact</a></li>
   </ul>
 </nav>
 
-            
-        </div>
+
     </div>
+  </div>
 </div>
 
 </header>
-    
+
     <div class="container container-left">
-        <div class="row">
-            <div class="col-md-3 hidden-xs">
-                <div class="sidebar well">
-Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+      <div class="row">
+        <div class="col-md-3 hidden-xs">
+        <div class="sidebar well">
+  Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 
 </div>
 
 <div class="sidebar well">
-    <h1>Recent Posts</h1>
-    <ul>
-        
-          <li><a href="/2016-09-15/welcome-to-jekyll">Welcome to Jekyll!</a></li>
-        
-          <li><a href="/2015-08-18/welcome-to-jekyll">Welcome to Jekyll!</a></li>
-        
-          <li><a href="/2013-08-16/code-highlighting-post">Syntax Highlighting Post</a></li>
-        
-          <li><a href="/2013-08-12/sample-link-post">Sample Link Post</a></li>
-        
-          <li><a href="/2013-05-23/readability-feature-post">Post with Large Feature Image and Text</a></li>
-        
-    </ul>
+  <h1>Recent Posts</h1>
+  <ul>
+  
+  <li><a href="/2016-12-26/theme-template-for-bootstrap">Theme Template for Bootstrap</a></li>
+  
+  <li><a href="/2016-09-15/welcome-to-jekyll">Welcome to Jekyll!</a></li>
+  
+  <li><a href="/2015-08-18/welcome-to-jekyll">Welcome to Jekyll!</a></li>
+  
+  <li><a href="/2013-08-16/code-highlighting-post">Syntax Highlighting Post</a></li>
+  
+  <li><a href="/2013-08-12/sample-link-post">Sample Link Post</a></li>
+  
+  </ul>
 </div>
 
 <div class="sidebar well">
-<h1>Links</h1>
+  <h1>Links</h1>
 <ul>
   
-    
-    <li>
-    <a href="/about/">About</a>
-    </li>
-    
   
-    
-    <li>
-    <a href="/blogroll/">Blogroll</a>
-    </li>
-    
+  <li><a href="/404">Page Not Found</a></li>
   
-    
-    <li>
-    <a href="/colophon/">Colophon</a>
-    </li>
-    
   
-    
   
-    
+  <li><a href="/about/">About</a></li>
   
-    
   
-    
   
-    
+  <li><a href="/archive/">Archive</a></li>
+  
+  
+  
+  <li><a href="/blogroll/">Blogroll</a></li>
+  
+  
+  
+  <li><a href="/contact/">Contact</a></li>
+  
+  
+  
+  
+  
+  
+  
+  <li><a href="/links/">Links</a></li>
+  
+  
+  
+  
+  
+  
+  
   
 </ul>
 </div>
 
 <div class="sidebar well">
-<h1>Links</h1>
-<ul>
-  <li><a href="#">One</a></li>
-  <li><a href="#">Two</a></li>
-  <li><a href="#">Three</a></li>
-  <li><a href="#">Four</a></li>
-</ul>
+  <h1>Links</h1>
+  <ul>
+    <li><a href="#">One</a></li>
+    <li><a href="#">Two</a></li>
+    <li><a href="#">Three</a></li>
+    <li><a href="#">Four</a></li>
+  </ul>
 </div>
 
 
-            </div>
-            <main class="col-md-9" aria-label="Content">
-                <article class="article">
+        </div>
+        <main class="col-md-9" aria-label="Content">
+          <article class="article">
   <div class="well">
-      <h1>
+    <h1>
       <a href="/2016-09-15/welcome-to-jekyll"><time datetime="2016-09-15T02:02:43-07:00">Sep 15, 2016</time> - Welcome to Jekyll!</a>
        • <span itemprop="author">Me</span>
       
-      </h1>
-  
-      
-      <p class="author"><a href="#disqus_thread" data-disqus-identifier="2016-09-15-welcome-to-jekyll">Comments</a></p>
-      
+    </h1>
   
   <div class="post-content">
   <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
@@ -178,44 +208,43 @@ Write an awesome description for your new site here. You can edit this line in _
 
 
   </div>
+  <div class="share-buttons">
+    <h6>Share on: </h6>
+    <ul>
+      <li>
+        <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2016-09-15/welcome-to-jekyll" class="twitter btn" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2016-09-15/welcome-to-jekyll" class="facebook btn" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/share?url=http://localhost:4000/2016-09-15/welcome-to-jekyll" class="google-plus btn" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      </li>
+      <li>
+        <a href="https://news.ycombinator.com/submitlink?u=http://localhost:4000/2016-09-15/welcome-to-jekyll" class="hacker-news btn" title="Share on Hacker News"><i class="fa fa-hacker-news"></i><span> Hacker News</span></a>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/submit?url=http://localhost:4000/2016-09-15/welcome-to-jekyll" class="reddit btn" title="Share on Reddit"><i class="fa fa-reddit"></i><span> Reddit</span></a>
+      </li>
+    </ul>
+  </div><!-- end share-buttons -->  
   
-      
-  <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
-      
   
   </div>
 </article>
 <div class="pagination">
-    
-    
-      <a class="btn btn-default" href="/2015-08-18/welcome-to-jekyll" class="previous">Older Post</a>
-    
+  
+    <a class="btn btn-default" href="/2016-12-26/theme-template-for-bootstrap" class="next">Newer Post</a>
+  
+  
+    <a class="btn btn-default" href="/2015-08-18/welcome-to-jekyll" class="previous">Older Post</a>
+  
 </div>
 
-  <script type="text/javascript">
-    var disqus_shortname = 'zacbook';
 
-    var disqus_config = function () {
-        this.page.identifier = '2016-09-15-welcome-to-jekyll';
-    };
-
-   (function() {
-     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-
-
-            </main>
-        </div>
+        </main>
+      </div>
     </div>
-
-        
-
+      
   </body>
-
 </html>

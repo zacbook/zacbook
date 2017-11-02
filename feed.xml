@@ -4,11 +4,584 @@
     <title>ZacBook.net</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://zacbook.net/</link>
-    <atom:link href="http://zacbook.net/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 21 Dec 2016 18:11:17 -0800</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2016 18:11:17 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Oct 2017 13:39:26 -0700</pubDate>
+    <lastBuildDate>Tue, 17 Oct 2017 13:39:26 -0700</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Theme Template for Bootstrap</title>
+        <description>      &lt;!-- Main jumbotron for a primary marketing message or call to action --&gt;
+      &lt;div class=&quot;jumbotron&quot;&gt;
+        &lt;h1&gt;Theme example&lt;/h1&gt;
+        &lt;p&gt;This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.&lt;/p&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Buttons&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;p&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-default&quot;&gt;Default&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-primary&quot;&gt;Primary&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-success&quot;&gt;Success&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-info&quot;&gt;Info&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-warning&quot;&gt;Warning&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-danger&quot;&gt;Danger&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-link&quot;&gt;Link&lt;/button&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot;&gt;Default&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-success&quot;&gt;Success&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-info&quot;&gt;Info&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-warning&quot;&gt;Warning&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-danger&quot;&gt;Danger&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-link&quot;&gt;Link&lt;/button&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-default&quot;&gt;Default&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-primary&quot;&gt;Primary&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-success&quot;&gt;Success&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-info&quot;&gt;Info&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-warning&quot;&gt;Warning&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-danger&quot;&gt;Danger&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-link&quot;&gt;Link&lt;/button&gt;
+      &lt;/p&gt;
+      &lt;p&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-default&quot;&gt;Default&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-primary&quot;&gt;Primary&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-success&quot;&gt;Success&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-info&quot;&gt;Info&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-warning&quot;&gt;Warning&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-danger&quot;&gt;Danger&lt;/button&gt;
+        &lt;button type=&quot;button&quot; class=&quot;btn btn-xs btn-link&quot;&gt;Link&lt;/button&gt;
+      &lt;/p&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Tables&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-6&quot;&gt;
+          &lt;table class=&quot;table&quot;&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th&gt;#&lt;/th&gt;
+                &lt;th&gt;First Name&lt;/th&gt;
+                &lt;th&gt;Last Name&lt;/th&gt;
+                &lt;th&gt;Username&lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Mark&lt;/td&gt;
+                &lt;td&gt;Otto&lt;/td&gt;
+                &lt;td&gt;@mdo&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Jacob&lt;/td&gt;
+                &lt;td&gt;Thornton&lt;/td&gt;
+                &lt;td&gt;@fat&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td&gt;Larry&lt;/td&gt;
+                &lt;td&gt;the Bird&lt;/td&gt;
+                &lt;td&gt;@twitter&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-6&quot;&gt;
+          &lt;table class=&quot;table table-striped&quot;&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th&gt;#&lt;/th&gt;
+                &lt;th&gt;First Name&lt;/th&gt;
+                &lt;th&gt;Last Name&lt;/th&gt;
+                &lt;th&gt;Username&lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Mark&lt;/td&gt;
+                &lt;td&gt;Otto&lt;/td&gt;
+                &lt;td&gt;@mdo&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Jacob&lt;/td&gt;
+                &lt;td&gt;Thornton&lt;/td&gt;
+                &lt;td&gt;@fat&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td&gt;Larry&lt;/td&gt;
+                &lt;td&gt;the Bird&lt;/td&gt;
+                &lt;td&gt;@twitter&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-6&quot;&gt;
+          &lt;table class=&quot;table table-bordered&quot;&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th&gt;#&lt;/th&gt;
+                &lt;th&gt;First Name&lt;/th&gt;
+                &lt;th&gt;Last Name&lt;/th&gt;
+                &lt;th&gt;Username&lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td rowspan=&quot;2&quot;&gt;1&lt;/td&gt;
+                &lt;td&gt;Mark&lt;/td&gt;
+                &lt;td&gt;Otto&lt;/td&gt;
+                &lt;td&gt;@mdo&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;Mark&lt;/td&gt;
+                &lt;td&gt;Otto&lt;/td&gt;
+                &lt;td&gt;@TwBootstrap&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Jacob&lt;/td&gt;
+                &lt;td&gt;Thornton&lt;/td&gt;
+                &lt;td&gt;@fat&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td colspan=&quot;2&quot;&gt;Larry the Bird&lt;/td&gt;
+                &lt;td&gt;@twitter&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;col-md-6&quot;&gt;
+          &lt;table class=&quot;table table-condensed&quot;&gt;
+            &lt;thead&gt;
+              &lt;tr&gt;
+                &lt;th&gt;#&lt;/th&gt;
+                &lt;th&gt;First Name&lt;/th&gt;
+                &lt;th&gt;Last Name&lt;/th&gt;
+                &lt;th&gt;Username&lt;/th&gt;
+              &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+              &lt;tr&gt;
+                &lt;td&gt;1&lt;/td&gt;
+                &lt;td&gt;Mark&lt;/td&gt;
+                &lt;td&gt;Otto&lt;/td&gt;
+                &lt;td&gt;@mdo&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;2&lt;/td&gt;
+                &lt;td&gt;Jacob&lt;/td&gt;
+                &lt;td&gt;Thornton&lt;/td&gt;
+                &lt;td&gt;@fat&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td&gt;3&lt;/td&gt;
+                &lt;td colspan=&quot;2&quot;&gt;Larry the Bird&lt;/td&gt;
+                &lt;td&gt;@twitter&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/tbody&gt;
+          &lt;/table&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Thumbnails&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;img data-src=&quot;holder.js/200x200&quot; class=&quot;img-thumbnail&quot; alt=&quot;A generic square placeholder image with a white border around it, making it resemble a photograph taken with an old instant camera&quot;&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Labels&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;h1&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h1&gt;
+      &lt;h2&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h2&gt;
+      &lt;h3&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h3&gt;
+      &lt;h4&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h4&gt;
+      &lt;h5&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h5&gt;
+      &lt;h6&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/h6&gt;
+      &lt;p&gt;
+        &lt;span class=&quot;label label-default&quot;&gt;Default&lt;/span&gt;
+        &lt;span class=&quot;label label-primary&quot;&gt;Primary&lt;/span&gt;
+        &lt;span class=&quot;label label-success&quot;&gt;Success&lt;/span&gt;
+        &lt;span class=&quot;label label-info&quot;&gt;Info&lt;/span&gt;
+        &lt;span class=&quot;label label-warning&quot;&gt;Warning&lt;/span&gt;
+        &lt;span class=&quot;label label-danger&quot;&gt;Danger&lt;/span&gt;
+      &lt;/p&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Badges&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;p&gt;
+        &lt;a href=&quot;#&quot;&gt;Inbox &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;
+      &lt;/p&gt;
+      &lt;ul class=&quot;nav nav-pills&quot; role=&quot;tablist&quot;&gt;
+        &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home &lt;span class=&quot;badge&quot;&gt;42&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Messages &lt;span class=&quot;badge&quot;&gt;3&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Dropdown menus&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;dropdown theme-dropdown clearfix&quot;&gt;
+        &lt;a id=&quot;dropdownMenu1&quot; href=&quot;#&quot; class=&quot;sr-only dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+        &lt;ul class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenu1&quot;&gt;
+          &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+          &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Navs&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;ul class=&quot;nav nav-tabs&quot; role=&quot;tablist&quot;&gt;
+        &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;ul class=&quot;nav nav-pills&quot; role=&quot;tablist&quot;&gt;
+        &lt;li role=&quot;presentation&quot; class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+        &lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#&quot;&gt;Messages&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Navbars&lt;/h1&gt;
+      &lt;/div&gt;
+
+      &lt;nav class=&quot;navbar navbar-default&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Project name&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;dropdown&quot;&gt;
+                &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                &lt;ul class=&quot;dropdown-menu&quot;&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                  &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+                  &lt;li class=&quot;dropdown-header&quot;&gt;Nav header&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+
+      &lt;nav class=&quot;navbar navbar-inverse&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+          &lt;div class=&quot;navbar-header&quot;&gt;
+            &lt;button type=&quot;button&quot; class=&quot;navbar-toggle collapsed&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+              &lt;span class=&quot;sr-only&quot;&gt;Toggle navigation&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+              &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#&quot;&gt;Project name&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+            &lt;ul class=&quot;nav navbar-nav&quot;&gt;
+              &lt;li class=&quot;active&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+              &lt;li class=&quot;dropdown&quot;&gt;
+                &lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; role=&quot;button&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropdown &lt;span class=&quot;caret&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+                &lt;ul class=&quot;dropdown-menu&quot;&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Another action&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+                  &lt;li role=&quot;separator&quot; class=&quot;divider&quot;&gt;&lt;/li&gt;
+                  &lt;li class=&quot;dropdown-header&quot;&gt;Nav header&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Alerts&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+        &lt;strong&gt;Well done!&lt;/strong&gt; You successfully read this important alert message.
+      &lt;/div&gt;
+      &lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+        &lt;strong&gt;Heads up!&lt;/strong&gt; This alert needs your attention, but it's not super important.
+      &lt;/div&gt;
+      &lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+        &lt;strong&gt;Warning!&lt;/strong&gt; Best check yo self, you're not looking too good.
+      &lt;/div&gt;
+      &lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;
+        &lt;strong&gt;Oh snap!&lt;/strong&gt; Change a few things up and try submitting again.
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Progress bars&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%;&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;60% Complete&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-success&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;40&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 40%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;40% Complete (success)&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-info&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;20&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 20%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;20% Complete&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-warning&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;60% Complete (warning)&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-danger&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;80&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 80%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;80% Complete (danger)&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-striped&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;60&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width: 60%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;60% Complete&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;progress&quot;&gt;
+        &lt;div class=&quot;progress-bar progress-bar-success&quot; style=&quot;width: 35%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;35% Complete (success)&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;progress-bar progress-bar-warning&quot; style=&quot;width: 20%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;20% Complete (warning)&lt;/span&gt;&lt;/div&gt;
+        &lt;div class=&quot;progress-bar progress-bar-danger&quot; style=&quot;width: 10%&quot;&gt;&lt;span class=&quot;sr-only&quot;&gt;10% Complete (danger)&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;List groups&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;ul class=&quot;list-group&quot;&gt;
+            &lt;li class=&quot;list-group-item&quot;&gt;Cras justo odio&lt;/li&gt;
+            &lt;li class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/li&gt;
+            &lt;li class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/li&gt;
+            &lt;li class=&quot;list-group-item&quot;&gt;Porta ac consectetur ac&lt;/li&gt;
+            &lt;li class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;div class=&quot;list-group&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item active&quot;&gt;
+              Cras justo odio
+            &lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;Dapibus ac facilisis in&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;Morbi leo risus&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;Porta ac consectetur ac&lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;Vestibulum at eros&lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;div class=&quot;list-group&quot;&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item active&quot;&gt;
+              &lt;h4 class=&quot;list-group-item-heading&quot;&gt;List group item heading&lt;/h4&gt;
+              &lt;p class=&quot;list-group-item-text&quot;&gt;Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;
+              &lt;h4 class=&quot;list-group-item-heading&quot;&gt;List group item heading&lt;/h4&gt;
+              &lt;p class=&quot;list-group-item-text&quot;&gt;Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.&lt;/p&gt;
+            &lt;/a&gt;
+            &lt;a href=&quot;#&quot; class=&quot;list-group-item&quot;&gt;
+              &lt;h4 class=&quot;list-group-item-heading&quot;&gt;List group item heading&lt;/h4&gt;
+              &lt;p class=&quot;list-group-item-text&quot;&gt;Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.&lt;/p&gt;
+            &lt;/a&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Panels&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;div class=&quot;panel panel-default&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;panel panel-primary&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;div class=&quot;panel panel-success&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;panel panel-info&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+        &lt;div class=&quot;col-sm-4&quot;&gt;
+          &lt;div class=&quot;panel panel-warning&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;panel panel-danger&quot;&gt;
+            &lt;div class=&quot;panel-heading&quot;&gt;
+              &lt;h3 class=&quot;panel-title&quot;&gt;Panel title&lt;/h3&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;panel-body&quot;&gt;
+              Panel content
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;&lt;!-- /.col-sm-4 --&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Wells&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;well&quot;&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
+      &lt;/div&gt;
+
+
+      &lt;div class=&quot;page-header&quot;&gt;
+        &lt;h1&gt;Carousel&lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;div id=&quot;carousel-example-generic&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;
+        &lt;ol class=&quot;carousel-indicators&quot;&gt;
+          &lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;0&quot; class=&quot;active&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;1&quot;&gt;&lt;/li&gt;
+          &lt;li data-target=&quot;#carousel-example-generic&quot; data-slide-to=&quot;2&quot;&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;div class=&quot;carousel-inner&quot; role=&quot;listbox&quot;&gt;
+          &lt;div class=&quot;item active&quot;&gt;
+            &lt;img data-src=&quot;holder.js/1140x500/auto/#777:#555/text:First slide&quot; alt=&quot;First slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;item&quot;&gt;
+            &lt;img data-src=&quot;holder.js/1140x500/auto/#666:#444/text:Second slide&quot; alt=&quot;Second slide&quot;&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;item&quot;&gt;
+            &lt;img data-src=&quot;holder.js/1140x500/auto/#555:#333/text:Third slide&quot; alt=&quot;Third slide&quot;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;a class=&quot;left carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;
+          &lt;span class=&quot;glyphicon glyphicon-chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Previous&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;a class=&quot;right carousel-control&quot; href=&quot;#carousel-example-generic&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;
+          &lt;span class=&quot;glyphicon glyphicon-chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+          &lt;span class=&quot;sr-only&quot;&gt;Next&lt;/span&gt;
+        &lt;/a&gt;
+      &lt;/div&gt;
+
+
+    &lt;/div&gt; &lt;!-- /container --&gt;
+
+
+  &lt;/body&gt;
+&lt;/html&gt;
+</description>
+        <pubDate>Mon, 26 Dec 2016 21:59:23 -0800</pubDate>
+        <link>http://localhost:4000/2016-12-26/theme-template-for-bootstrap</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-12-26/theme-template-for-bootstrap</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,8 +601,8 @@
 
 </description>
         <pubDate>Thu, 15 Sep 2016 02:02:43 -0700</pubDate>
-        <link>http://zacbook.net/2016-09-15/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://zacbook.net/2016-09-15/welcome-to-jekyll</guid>
+        <link>http://localhost:4000/2016-09-15/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/2016-09-15/welcome-to-jekyll</guid>
         
         
         <category>jekyll</category>
@@ -56,8 +629,8 @@
 
 </description>
         <pubDate>Tue, 18 Aug 2015 08:07:19 -0700</pubDate>
-        <link>http://zacbook.net/2015-08-18/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://zacbook.net/2015-08-18/welcome-to-jekyll</guid>
+        <link>http://localhost:4000/2015-08-18/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/2015-08-18/welcome-to-jekyll</guid>
         
         
         <category>tutorial</category>
@@ -163,14 +736,14 @@
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;Syntax Highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;Syntax Highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 16 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://zacbook.net/2013-08-16/code-highlighting-post</link>
-        <guid isPermaLink="true">http://zacbook.net/2013-08-16/code-highlighting-post</guid>
+        <link>http://localhost:4000/2013-08-16/code-highlighting-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2013-08-16/code-highlighting-post</guid>
         
         
         <category>code</category>
@@ -188,8 +761,8 @@
 &lt;p&gt;Some &lt;a href=&quot;http://renyuanz.github.io&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://zacbook.net/2013-08-12/sample-link-post</link>
-        <guid isPermaLink="true">http://zacbook.net/2013-08-12/sample-link-post</guid>
+        <link>http://localhost:4000/2013-08-12/sample-link-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2013-08-12/sample-link-post</guid>
         
         
         <category>link post</category>
@@ -242,14 +815,14 @@
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 23 May 2013 00:00:00 -0700</pubDate>
-        <link>http://zacbook.net/2013-05-23/readability-feature-post</link>
-        <guid isPermaLink="true">http://zacbook.net/2013-05-23/readability-feature-post</guid>
+        <link>http://localhost:4000/2013-05-23/readability-feature-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2013-05-23/readability-feature-post</guid>
         
         
         <category>paragraph</category>
@@ -302,8 +875,8 @@
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 May 2012 00:00:00 -0700</pubDate>
-        <link>http://zacbook.net/2012-05-22/readability-post</link>
-        <guid isPermaLink="true">http://zacbook.net/2012-05-22/readability-post</guid>
+        <link>http://localhost:4000/2012-05-22/readability-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2012-05-22/readability-post</guid>
         
         
         <category>paragraph</category>
@@ -332,7 +905,7 @@
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&amp;amp;dpr=2&amp;amp;fit=crop&amp;amp;fm=jpg&amp;amp;h=475&amp;amp;ixjsv=2.1.0&amp;amp;ixlib=rb-0.3.5&amp;amp;q=50&amp;amp;w=1250&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;center-block&quot;&gt;&lt;img src=&quot;https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&amp;amp;dpr=2&amp;amp;fit=crop&amp;amp;fm=jpg&amp;amp;h=475&amp;amp;ixjsv=2.1.0&amp;amp;ixlib=rb-0.3.5&amp;amp;q=50&amp;amp;w=1250&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -435,8 +1008,8 @@
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.notice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; to a paragraph.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Mar 2011 00:00:00 -0800</pubDate>
-        <link>http://zacbook.net/2011-03-10/sample-post</link>
-        <guid isPermaLink="true">http://zacbook.net/2011-03-10/sample-post</guid>
+        <link>http://localhost:4000/2011-03-10/sample-post</link>
+        <guid isPermaLink="true">http://localhost:4000/2011-03-10/sample-post</guid>
         
         
         <category>hello world</category>
